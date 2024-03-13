@@ -1,0 +1,33 @@
+.Cards {
+    position: relative;
+    background: #EAEAEA;
+    display: grid;
+    margin-bottom: 24px;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+#loading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: #bebebe;
+}
+
+.GoTop {
+    position: fixed;
+    right: 6px;
+}
